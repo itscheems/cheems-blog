@@ -35,6 +35,9 @@ export default hopeTheme({
   blog: {
     description: "不正经的后端开发",
     intro: "/intro.html",
+    articlePerPage: 20,
+    sidebarDisplay: "mobile",
+    timeline: "悟已往之不谏，知来者之可追",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
