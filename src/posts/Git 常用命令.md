@@ -102,3 +102,14 @@ git commit -m "Initial commit"
  
 git push -u origin master
 ```
+
+## git init...
+``` bash
+# 设置 git 用户名和邮箱
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# 显示当前邮箱
+git config user.email
+git config user.name
+```
