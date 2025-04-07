@@ -1,5 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
+// docs: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
+
 export default sidebar({
   "/": [
     "",
@@ -17,6 +19,8 @@ export default sidebar({
       icon: "book",
       prefix: "posts/",
       children: "structure",
+      collapsible: true, // 当前分组的链接是否可折叠
+      expanded: false, // 当前分组的链接是否默认展开
     },
 
     // 介绍页
