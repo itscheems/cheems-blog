@@ -113,3 +113,21 @@ git config --global user.name "Your Name"
 git config user.email
 git config user.name
 ```
+
+远程提交和本地提交不一样，可以用这个，记得解决冲突
+``` bash
+git pull origin master --allow-unrelated-histories
+```
+
+## 如何保持空目录的目录结构？
+git 默认是不会追踪空文件夹的。因为 Git 只跟踪文件，不跟踪空目录，所以如果一个目录里什么都没有，它就不会被加进版本控制
+`.gitkeep` 不是 Git 的官方文件名，它只是一个社区约定俗成的方式，你可以叫它任何名字，比如 `.keep`、`README.md` 都行
+自动在空文件夹里加 `.gitkeep`
+``` bash
+find . -type d -empty -exec touch {}/.gitkeep \;
+```
+
+删除非空目录中的 `.gitkeep` 文件
+``` bash
+find . -name ".gitkeep" -exec bash -c 'dir=$(dirname "{}"); count=$(find "$dir" -type f | wc -l); [ "$count" -gt 1 ] && rm "{}"' \;
+```
