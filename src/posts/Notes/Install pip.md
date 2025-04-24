@@ -5,6 +5,7 @@ date: 2025-04-01
 
 tag: 
   - Python
+  - install
 
 star: false
 

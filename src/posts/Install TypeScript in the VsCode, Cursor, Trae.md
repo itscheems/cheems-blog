@@ -10,8 +10,8 @@ date: 2025-04-01
 #   - 计算机基础
 
 #标签（可填多个）
-# tag: 
-#   - kubernetes
+tag: 
+  - install
 
 star: true
 
