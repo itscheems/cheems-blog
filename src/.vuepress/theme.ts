@@ -15,6 +15,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
+  // src/.vuepress/public 下的图片路径
   logo: "./微信图片_20240923235032.png",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
@@ -26,6 +27,9 @@ export default hopeTheme({
 
   // 侧边栏
   sidebar,
+
+  // 允许同时展开多个侧边栏分组
+  sidebarSorter: false,
 
   // 页脚
   footer: "沉浸在万花筒的幻术之中吧...",
