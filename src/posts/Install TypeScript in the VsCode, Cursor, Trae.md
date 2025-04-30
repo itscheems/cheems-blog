@@ -13,7 +13,7 @@ date: 2025-04-01
 tag: 
   - install
 
-star: true
+star: false
 
 # 置顶
 sticky: false

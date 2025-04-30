@@ -1,7 +1,7 @@
 ---
 title: K8s CRD Operator
 # 背景图片
-# cover: ./祢豆子1.jpg
+cover: ./755ce8eegy1grlo2ahss2j211i230npd.jpg
 
 date: 2025-04-02
 
@@ -16,10 +16,10 @@ tag:
 star: true
 
 # 置顶
-sticky: false
+sticky: true
 
 # 摘要
-excerpt: <p> </p>
+excerpt: <p>使用 Kubebuilder 创建和部署 Kubernetes CRD Operator，包括项目初始化、API 创建、代码生成、CRD YAML 生成、Docker 镜像构建和资源应用等步骤。</p>
 ---
 
 # K8s CRD Operator

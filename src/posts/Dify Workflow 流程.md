@@ -3,6 +3,9 @@ title: Dify Workflow 流程
 
 date: 2025-04-10
 
+# 背景图片
+cover: ./177c9d9baee1548b.jpg
+
 # 分类（可填多个）
 # category:
 #   - 计算机基础
@@ -14,10 +17,10 @@ date: 2025-04-10
 star: true
 
 # 置顶
-sticky: false
+sticky: true
 
 # 摘要
-excerpt: <p> </p>
+excerpt: <p>介绍了 Dify 工作流的架构和执行流程，涵盖了从控制层到图执行的各个层次。</p>
 ---
 
 # Dify Workflow 流程
