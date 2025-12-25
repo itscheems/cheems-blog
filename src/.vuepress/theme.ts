@@ -15,9 +15,10 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  //logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // src/.vuepress/public 下的图片路径
+  logo: "./微信图片_20240923235032.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -33,8 +34,11 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "不正经的后端开发",
     intro: "/intro.html",
+    articlePerPage: 20,
+    sidebarDisplay: "mobile",
+    timeline: "悟已往之不谏，知来者之可追",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
@@ -81,6 +85,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
+      "/demo/layout.html": ["1234"],
     },
   },
 

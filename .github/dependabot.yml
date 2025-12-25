@@ -22,3 +22,57 @@ updates:
           - "*"
         update-types:
           - "minor"
+
+  # - package-ecosystem: "gomod"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "daily"
+  #     time: "02:00"
+  #   open-pull-requests-limit: 10
+  #   groups:
+  #     patch-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "patch"
+  #     minor-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "minor"
+
+  # - package-ecosystem: "cargo"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "daily"
+  #     time: "02:00"
+  #   open-pull-requests-limit: 10
+  #   groups:
+  #     patch-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "patch"
+  #     minor-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "minor"
+
+  # - package-ecosystem: "pip"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "daily"
+  #     time: "02:00"
+  #   open-pull-requests-limit: 10
+  #   groups:
+  #     patch-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "patch"
+  #     minor-updates:
+  #       patterns:
+  #         - "*"
+  #       update-types:
+  #         - "minor"

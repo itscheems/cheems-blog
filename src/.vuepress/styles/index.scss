@@ -1,1 +1,14 @@
 // place your custom styles here
+
+.page-home {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* 针对移动端的适配 */
+    @media (max-width: 768px) {
+      background-size: cover;
+      background-position: top;
+      background-attachment: scroll;
+    }
+  }
