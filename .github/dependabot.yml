@@ -2,9 +2,12 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# example:
+# https://github.com/dependabot/dependabot-core/blob/main/.github/dependabot.yml
 
 version: 2
 updates:
+  # `package-ecosystem` more configurations: https://docs.github.com/zh/code-security/dependabot/working-with-dependabot/dependabot-options-reference#package-ecosystem-
   - package-ecosystem: "npm"
     directory: "/"
     schedule:

@@ -1,2 +1,1 @@
-# cjayjay-blog
-C Jayjay's blog
+Cheems's blog

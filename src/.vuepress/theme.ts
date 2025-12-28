@@ -9,7 +9,7 @@ export default hopeTheme({
 
   // 文章标题下的作者信息
   author: {
-    name: "C JayJay",
+    name: "Cheems",
     url: "https://github.com/chenjjiaa",
   },
 
